@@ -43,7 +43,6 @@ const options = {
 
   method: "POST",
   auth : "Hamid:e453b001ad6538227a6f49bd583b8d83-us1"
-  
 }
 
  const requestToSendToMailChimp = https.request(url, options, function(response) {
